@@ -1,0 +1,5 @@
+~ssh-keygen -t rsa -C "xxxxx@qq.com"
+copy data from C:\Users\XXXX\.ssh\id_rsa.pub to Settings-->SSH and GPG keys/Key
+test in local use cmd:
+~ssh -T git@github.com
+Hi PeterProfile! You've successfully authenticated, but GitHub does not provide shell access.
